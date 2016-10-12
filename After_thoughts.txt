@@ -1,0 +1,9 @@
+Some takeaways:
+
+800notes.com implements some control over scraping, so I faked user agents for fetching the http response.
+
+All the entries on 800notes.com are wrapped in 'oops_listItem' classes. However there are extra 'oops_listItem' classes that are not holding values. I had to choose the ones in the 'oops_content' div.
+
+This project lacked testing because I had run out of time and most of the codes are straightforward function calls from well-tested libraries.
+
+I hope to hear more insights and advice from you. Thank you!
