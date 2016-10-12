@@ -12,8 +12,6 @@ list_item = oos_content.find_all('li', {"class": "oos_listItem"})
 
 def construct_entries():
 	entries = []
-	print("making entries")
-	print(list_item)
 	for i in range(len(list_item)):
 		entry = {}
 		entry['id'] = i
